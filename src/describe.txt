@@ -1,0 +1,10 @@
+describe PIN
+
+UNO -   NRF24L01    -   WEMOS
+    -   GND 1 PIN   -
+    -   VIN 2 PIN   -   
+9   -   CE 3 PIN    -   4 (16)
+10  -   CSN 4 PIN   -   15
+11  -   MOSI 6 PIN  -   13
+12  -   MISO 7 PIN  -   12
+13  -   SCK 5 PIN   -   14
