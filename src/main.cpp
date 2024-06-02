@@ -16,8 +16,8 @@
 #include "printf.h"
 #include "RF24.h"
 
-#define CE_PIN 16
-#define CSN_PIN 15
+#define CE_PIN 7
+#define CSN_PIN 8
 // instantiate an object for the nRF24L01 transceiver
 RF24 radio(CE_PIN, CSN_PIN);
 
@@ -46,7 +46,7 @@ PayloadStruct payload;
 
 void setup() {
   
-  Serial.begin(74880);
+  Serial.begin(9600);
   //Serial.println("I am starting");
   while (!Serial) {
     // some boards need to wait to ensure access to serial over USB
